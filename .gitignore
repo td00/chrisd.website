@@ -1,0 +1,27 @@
+###macOS foo###
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcons.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+###vim foo###
+.sw[a-p]
+.*.sw[a-p]
+Session.vim
+.netrwhist
+*~
+tags
+
