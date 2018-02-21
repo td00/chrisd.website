@@ -25,3 +25,7 @@ Session.vim
 *~
 tags
 
+###dev foo###
+dev.css
+dev.js
+dev.html
