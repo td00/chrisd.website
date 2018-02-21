@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/popout.css" />
+		<link rel="stylesheet" href="assets/css/lightbox.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -91,41 +91,43 @@
 								<section>
 									<div class="row">
 										<div class="4u 12u$(mobile)">
-											<div class="popup" onclick="myFunction()">
-												<a class="image fit"><img src="images/pic01.jpg" alt=""></a>
-												<span class="popuptext" id="myPopup">Hier kommt die Beschreibung für Bild 1 hin</span>
+											<div class="description" onclick="description()">
+												<a href="#references.image_1"class="image fit"><img title="Videomapping auf Tisch." src="images/pic01.jpg" alt=""></a>
 											</div>
 										</div>
+										<a href="#references" class="lightbox" id="references.image_1">
+												<img src="images/pic01.jpg">
+										</a>
 										<div class="4u 12u$(mobile)">
-											<div class="popup" onclick="myFunction()">
-												<a class="image fit"><img src="images/pic02.jpg" alt=""></a>
-												<span class="popuptext" id="myPopup">Hier kommt die Beschreibung für Bild 2 hin</span>
-											</div>
+											<a href="#references.image_2" class="image fit"><img title="Krasse Bühne mit Gelb am Rand" src="images/pic02.jpg" alt=""></a>
 										</div>
+										<a href="#references" class="lightbox" id="references.image_2">
+												<img src="images/pic02.jpg">
+										</a>
 										<div class="4u$ 12u$(mobile)">
-											<div class="popup" onclick="myFunction()">
-												<a class="image fit"><img src="images/pic03.jpg" alt=""></a>
-												<span class="popuptext" id="myPopup">Hier kommt die Beschreibung für Bild 3 hin</span>
-											</div>
+											<a href="#references.image_3" class="image fit"><img title="Der Caddy, also irgendwas mit VW" src="images/pic03.jpg" alt=""></a>
 										</div>
+										<a href="#references" class="lightbox" id="references.image_3">
+												<img src="images/pic03.jpg">
+										</a>
 										<div class="4u 12u$(mobile)">
-											<div class="popup" onclick="myFunction()">
-												<a class="image fit"><img src="images/pic04.jpg" alt=""></a>
-												<span class="popuptext" id="myPopup">Hier kommt die Beschreibung für Bild 4 hin</span>
-											</div>
+											<a href="#references.image_4" class="image fit"><img title="Eine Vortragsbühne" src="images/pic04.jpg" alt=""></a>
 										</div>
+										<a href="#references" class="lightbox" id="references.image_4">
+												<img src="images/pic04.jpg">
+										</a>
 										<div class="4u 12u$(mobile)">
-											<div class="popup" onclick="myFunction()">
-												<a class="image fit"><img src="images/pic05.jpg" alt=""></a>
-												<span class="popuptext" id="myPopup">Hier kommt die Beschreibung für Bild 5 hin</span>
-											</div>
+											<a href="#references.image_5" class="image fit"><img title="Noch eine Bühne." src="images/pic05.jpg" alt=""></a>
 										</div>
+										<a href="#references" class="lightbox" id="references.image_5">
+												<img src="images/pic05.jpg">
+										</a>
 										<div class="4u$ 12u$(mobile)">
-											<div class="popup" onclick="myFunction()">
-												<a class="image fit"><img src="images/pic06.jpg" alt=""></a>
-												<span class="popuptext" id="myPopup">Hier kommt die Beschreibung für Bild 6 hin</span>
-											</div>
+											<a href="#references.image_6" class="image fit"><img title="Oh und noch eine. Kreativ." src="images/pic06.jpg" alt=""></a>
 										</div>
+										<a href="#references" class="lightbox" id="references.image_6">
+												<img src="images/pic06.jpg">
+										</a>
 									</div>
 									
 								</section>
@@ -164,7 +166,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/popout.js"></script>
+			<script src="assets/js/lightbox.js"></script>
 
 	</body>
 </html>
